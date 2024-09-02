@@ -1,36 +1,88 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="images/gift.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/index.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-  <!-- Document Title -->
-  <title>for someone</title>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6e6d8a, #2c2b44);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #f06292;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #e91e63;
+        }
+        
+        #quote {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            transition: opacity 0.5s ease;
+        }
+        
+        .hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for someone</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <!-- Background -->
-  <div class="night"></div>
+    <div class="container">
+        <div class="content">
+            <h1>trimkasih banyak atas waktunya</h1>
+            <p>baik baik dalam prosesmu,selamat menata masa depanmu<br>
+                dan selamat berkelena , selamat berbahagia ya semestaku<br>
+                i miss butterfly era with you, selamat melanjutkan perjalananmu<br>siapapun rumahmu ,sayangi dia ya <br>see u,still love u
+            </p>
+           <a href="file:///C:/Users/Rdpakaya/Desktop/file%20jadi/index.html"><button>Selengkapnya</button>  
+            </div>
+        </div>
+    </div>
+    
 
-  <!-- Title -->
-  <h1 class="title"></h1>
-
-  <!-- Button -->
-  <div style="position: absolute; top: 60vh; width: 100%; display: flex; justify-content: center;">
-    <a href="flower.html" class="btn">
-      <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
-        <path
-          d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z">
-        </path>
-      </svg>
-
-      <span class="text">di buka yaa</span>
-    </a>
-  </div>
-
-  <script src="js/index.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
